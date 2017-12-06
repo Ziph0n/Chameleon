@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.subspec 'Swift' do |ss|
       ss.ios.deployment_target = '8.0'
       ss.source_files = 'Pod/Classes/Swift/ChameleonShorthand.swift'
+      ss.source_files = 'Pod/Classes/Swift/GradientView.swift’
       ss.dependency 'ChameleonFramework/Default'
   end
 end
