@@ -227,11 +227,11 @@ import UIKit
     }
     
     //MARK: - Layout
-    func intrinsicContentSize()->CGSize {
+     override public var intrinsicContentSize: CGSize {
         return CGSize(width: UIViewNoIntrinsicMetric, height: thumbSize)
     }
     
-    func alignmentRectInsets() -> UIEdgeInsets {
+    override public var alignmentRectInsets: UIEdgeInsets {
         return UIEdgeInsetsMake(4.0, 2.0, 4.0, 2.0)
     }
     
